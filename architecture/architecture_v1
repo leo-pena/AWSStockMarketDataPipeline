@@ -1,1 +1,17 @@
+# Architecture v1
 
+External APIs
+    ↓
+Lambda
+    ↓
+S3 Raw
+    ↓
+Glue Catalog
+    ↓
+Glue ETL
+    ↓
+S3 Curated
+    ↓
+Redshift Serverless
+    ↓
+Power BI
